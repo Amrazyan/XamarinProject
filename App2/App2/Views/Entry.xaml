@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Entry">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="textToShow" Text="Բարև"  />
+            <Button Text="Սեղմել" x:Name="Button1"></Button>
+            <Entry x:Name="inputBox" Placeholder="Ներմուծիր ինչ-որ բան" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
