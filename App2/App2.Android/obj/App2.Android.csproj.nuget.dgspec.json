@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2.Android\\App2.Android.csproj": {}
+    "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2.Android\\App2.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2.Android\\App2.Android.csproj": {
+    "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2.Android\\App2.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2.Android\\App2.Android.csproj",
+        "projectUniqueName": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2.Android\\App2.Android.csproj",
         "projectName": "App2.Android",
-        "projectPath": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2.Android\\App2.Android.csproj",
+        "projectPath": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2.Android\\App2.Android.csproj",
         "packagesPath": "C:\\Users\\amraz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2.Android\\obj\\",
+        "outputPath": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid81": {
             "projectReferences": {
-              "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2\\App2.csproj": {
-                "projectPath": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2\\App2.csproj"
+              "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2\\App2.csproj": {
+                "projectPath": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2\\App2.csproj"
               }
             }
           }
@@ -80,20 +80,20 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.293080, )"
+              "version": "[3.6.0.344457, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2\\App2.csproj": {
+    "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2\\App2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2\\App2.csproj",
+        "projectUniqueName": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2\\App2.csproj",
         "projectName": "App2",
-        "projectPath": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2\\App2.csproj",
+        "projectPath": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2\\App2.csproj",
         "packagesPath": "C:\\Users\\amraz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2\\obj\\",
+        "outputPath": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -141,7 +141,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.293080, )"
+              "version": "[3.6.0.344457, )"
             }
           },
           "imports": [

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Entry">
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width ="10*"/>
+                <ColumnDefinition Width ="auto"/>
+                <ColumnDefinition Width ="10*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="2" 
+                    Grid.Column="1"  Orientation="Horizontal" VerticalOptions="Start"  HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                    <Button Text="Log in" 
+                    x:Name="Button1" 
+                    Grid.Row="2" 
+                    Grid.Column="1" 
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    BackgroundColor="White"
+                    BorderColor="#2d9cf4"
+                    TextColor="#757575"
+                    BorderWidth="2"
+                    CornerRadius="2"
+                    FontSize="Large"
+                    
+                    />
+                </StackLayout>
+                <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                    <Button Text="Sign Up" 
+                                x:Name="Button2" 
+                                Grid.Row="2" 
+                                Grid.Column="1" 
+                                HorizontalOptions="Start"
+                                VerticalOptions="Start"
+                                WidthRequest="100"
+                                HeightRequest="50"
+                                BackgroundColor="#2d9cf4"
+                                TextColor="White"
+                                BorderColor="White"
+                                BorderWidth="1"
+                                CornerRadius="5"
+                                FontSize="Large"
+                                />
+                    
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Grid.Row="1" Grid.Column="1"  Orientation="Vertical" VerticalOptions="FillAndExpand">
+                <Label Text="Enter Your Email"></Label>
+                <Entry Placeholder="Email" x:Name="Email" FontSize="Micro" TextColor="Black"> </Entry>
+                <Label Text="Enter Your Passowrd" ></Label>
+                <Entry Placeholder="Password" x:Name="Password" FontSize="Micro" IsPassword="True"></Entry>
+
+            </StackLayout>
+            
+            <Label Text="Politechnic University of Armenia" Grid.Column="1" Grid.Row="0" VerticalOptions="End" HorizontalOptions="CenterAndExpand" ></Label>
+            <Label Text="Hello!" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3"
+        HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"
+        BackgroundColor="Red" TextColor="White" />
+
+            <!--#region BoxViews -->
+
+            <BoxView Grid.Row="0" Grid.ColumnSpan="3" BackgroundColor="Red" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+            <BoxView Grid.Row="1" Grid.ColumnSpan="3" BackgroundColor="Red" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+            <BoxView Grid.Row="2" Grid.ColumnSpan="3" BackgroundColor="Red" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+            <BoxView Grid.Row="3" Grid.ColumnSpan="3" BackgroundColor="Red" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+            
+            <BoxView Grid.Column="0" Grid.RowSpan="4"  BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+            <BoxView Grid.Column="1" Grid.RowSpan="4"  BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+           <!--#endregion-->
+
+        </Grid>
+        
+       
+    </ContentPage.Content>
+</ContentPage>

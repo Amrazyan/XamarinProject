@@ -37,7 +37,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.293080": {
+      "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -166,7 +166,7 @@
         "dependencies": {
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.293080"
+          "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
           "bin/placeholder/App2.dll": {}
@@ -212,7 +212,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.293080": {
+      "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -341,7 +341,7 @@
         "dependencies": {
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.293080"
+          "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
           "bin/placeholder/App2.dll": {}
@@ -387,7 +387,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.293080": {
+      "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -516,7 +516,7 @@
         "dependencies": {
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.293080"
+          "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
           "bin/placeholder/App2.dll": {}
@@ -562,7 +562,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.293080": {
+      "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -691,7 +691,7 @@
         "dependencies": {
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.293080"
+          "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
           "bin/placeholder/App2.dll": {}
@@ -830,10 +830,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/3.6.0.293080": {
-      "sha512": "5o6pS3kbFwWDiTpywz0UasLwn9Ay5/1eGH8JWXBV0N2lDkZauOgTZaMIE/Rdjz2bLhMturwzI1/DFuNxdSidFw==",
+    "Xamarin.Forms/3.6.0.344457": {
+      "sha512": "7IffIKgL0fmgbfCLKzXaFKJ7uOueKiz/BIgmAG1Z5WMn+vMKeALe5GgRs3Uddo670VzllIHWkNEZD3lG+e02bw==",
       "type": "package",
-      "path": "xamarin.forms/3.6.0.293080",
+      "path": "xamarin.forms/3.6.0.344457",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -991,7 +991,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.6.0.293080.nupkg.sha512",
+        "xamarin.forms.3.6.0.344457.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1006,7 +1006,7 @@
       "App2 >= 1.0.0",
       "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Essentials >= 1.1.0",
-      "Xamarin.Forms >= 3.6.0.293080"
+      "Xamarin.Forms >= 3.6.0.344457"
     ]
   },
   "packageFolders": {
@@ -1016,11 +1016,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2.iOS\\App2.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2.iOS\\App2.iOS.csproj",
       "projectName": "App2.iOS",
-      "projectPath": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2.iOS\\App2.iOS.csproj",
+      "projectPath": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2.iOS\\App2.iOS.csproj",
       "packagesPath": "C:\\Users\\amraz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2.iOS\\obj\\",
+      "outputPath": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1041,8 +1041,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2\\App2.csproj": {
-              "projectPath": "C:\\Users\\amraz\\Documents\\XamarinProjects\\App2\\App2\\App2\\App2.csproj"
+            "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2\\App2.csproj": {
+              "projectPath": "C:\\Users\\amraz\\Desktop\\Xamarin\\App2\\App2\\App2\\App2.csproj"
             }
           }
         }
@@ -1061,7 +1061,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.6.0.293080, )"
+            "version": "[3.6.0.344457, )"
           }
         }
       }
